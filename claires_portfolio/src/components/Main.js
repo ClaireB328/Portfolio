@@ -3,6 +3,8 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
+import pic05 from '../images/pic05.jpg'
 
 class Main extends React.Component {
   render() {
@@ -67,10 +69,7 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            My name is Claire. I'm a software engineer, focusing on developing beautiful web applications. 
           </p>
           {close}
         </article>
@@ -82,21 +81,19 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 className="major">Margarita Mixer!</h2>
+          <a href="https://dreamy-heisenberg-098165.netlify.app/"
+            className="margarita">
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
+          </a>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+          App designed to help user create at home margaritas. User can hover over desired margarita image to view ingredients and instructions. 
           </p>
           {close}
         </article>
+
         <article
           id="projects"
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
@@ -104,21 +101,19 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 className="major">Recipe Box</h2>
+          <a href="https://admiring-bardeen-3db451.netlify.app/"
+            className="recipe">
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic04} alt="" />
           </span>
+          </a>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Recipe Box uses React to allow user to search and various recipes will appear with ingredients and recipe link. 
           </p>
           {close}
         </article>
+
         <article
           id="projects"
           className={`${this.props.article === 'projects' ? 'active' : ''} ${
@@ -126,18 +121,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 className="major">Brooklyn Restaurateur Review</h2>
+          <a href="https://bklyn-rest-review.netlify.app/"
+          className="restaurant">
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic05} alt="" />
           </span>
+          </a>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+          Brooklyn Restauranteur Review is a full-stack app that uses Ruby on Rails and React to create a  space where restaurant owners can view and review other restaurants. Admin of the site can edit and delete restaurants.
           </p>
           {close}
         </article>
@@ -149,8 +141,8 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <h2 className="major">Contact me on LinkedIn!</h2>
+          {/* <form method="post" action="https://getform.io/{claire.buettner@gmail.com}">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -171,14 +163,14 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
           <ul className="icons">
             <li>
               <a href="https://www.linkedin.com/in/claire-buettner/" className="icon fa-linkedin">
                 <span className="label">LinkedIn</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://github.com/ClaireB328"
                 className="icon fa-github"
@@ -186,6 +178,14 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
+            <li>
+              <a
+                href="https://github.com/ClaireB328"
+                className="icon fa-envelope"
+              >
+                <span className="label">email</span>
+              </a>
+            </li>  */}
           </ul>
           {close}
         </article>
