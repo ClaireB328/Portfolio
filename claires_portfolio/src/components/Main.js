@@ -69,7 +69,8 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            My name is Claire. I'm a software engineer, focusing on developing beautiful web applications. 
+            Hello! I'm Claire, a Brooklyn based software engineer. I enjoy building beautiful, clean and user-friendly web applications. I have an affinity for problem solving, communication and detailed oriented work. When I'm not coding, I enjoy spending time with my family and friends, traveling and cooking. 
+            
           </p>
           {close}
         </article>
